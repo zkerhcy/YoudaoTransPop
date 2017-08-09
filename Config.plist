@@ -20,7 +20,7 @@
 			<key>After</key>
 			<string>preview-result</string>
 			<key>Regular Expression</key>
-			<string>(?s)^.{1,200}$</string>
+			<string>(?s)^.{1,1000}$</string>
 		</dict>
 	</array>
 	<key>Extension Description</key>
