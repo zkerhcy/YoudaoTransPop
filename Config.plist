@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Extension Identifier</key>
+	<string>com.popclip.extension.youdao-translate</string>
+	<key>Extension Name</key>
+	<string>YoudaoTranslate</string>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>YoudaoTranslate</string>
+			<key>Image File</key>
+			<string>youdao.png</string>
+			<key>Script Interpreter</key>
+			<string>/usr/bin/python</string>
+			<key>Shell Script File</key>
+			<string>main.py</string>
+			<key>After</key>
+			<string>preview-result</string>
+			<key>Regular Expression</key>
+			<string>(?s)^.{1,1000}$</string>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<string>Translate the selected word or short phrase instantly within PopClip. Powered by YouDao Translator.</string>
+</dict>
+</plist>
